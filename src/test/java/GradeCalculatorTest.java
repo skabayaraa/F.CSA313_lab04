@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GradeCalculatorTest {
@@ -162,6 +163,33 @@ public class GradeCalculatorTest {
                 () -> calc.totalScore(10, 41, 10, 10, 30)
         );
     }
+
+    @ParameterizedTest
+@DisplayName("Өөр өөр оноонд харгалзах үсгэн дүнг зөв тооцох")
+@CsvSource({
+        "100, A",
+        "97.5, A",
+        "92, A",
+        "88, B",
+        "84.5, B",
+        "79, C",
+        "73.5, C",
+        "68, D",
+        "61.5, D",
+        "55, F",
+        "42.5, F",
+        "12, F"
+})
+void letterGradeVariousScores(double score, String expected) {
+    // Arrange
+    GradeCalculator calc = new GradeCalculator();
+
+    // Act
+    String actual = calc.letterGrade(score);
+
+    // Assert
+    assertEquals(expected, actual);
+}
 
     @ParameterizedTest
     @DisplayName("Хязгаарын оноонуудаар үсгэн дүнг шалгах")
