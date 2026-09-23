@@ -3,14 +3,6 @@
 [[1;34mINFO[m] [1m--------------------< [0;36mmn.edu.must.sqat:lab04-junit[0;1m >--------------------[m
 [[1;34mINFO[m] [1mBuilding lab04-junit 1.0-SNAPSHOT[m
 [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.pom
-Progress (1): 4.1 kBProgress (1): 5.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.pom (5.2 kB at 17 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom
-Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom (10 kB at 212 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
-Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 41 kBProgress (1): 43 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 761 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
-Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (15 kB at 298 kB/s)
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mlab04-junit[0;1m ---[m
 [[1;34mINFO[m] Deleting /home/user/F.CSA313_lab04/lab04-junit/target
@@ -38,7 +30,7 @@ Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 
 [[1;34mINFO[m]  T E S T S
 [[1;34mINFO[m] -------------------------------------------------------
 [[1;34mINFO[m] Running [1mGradeCalculatorTest[m
-[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s -- in [1mGradeCalculatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m39[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.367 s -- in [1mGradeCalculatorTest[m
 [[1;34mINFO[m] 
 [[1;34mINFO[m] Results:
 [[1;34mINFO[m] 
@@ -47,6 +39,6 @@ Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  3.167 s
-[[1;34mINFO[m] Finished at: 2026-09-23T17:54:14+08:00
+[[1;34mINFO[m] Total time:  4.046 s
+[[1;34mINFO[m] Finished at: 2026-09-23T17:57:41+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
