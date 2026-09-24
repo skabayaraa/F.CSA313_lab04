@@ -30,8 +30,8 @@
 [[1;34mINFO[m]  T E S T S
 [[1;34mINFO[m] -------------------------------------------------------
 [[1;34mINFO[m] Running [1mGradeCalculatorTest[m
-[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m39[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.415 s[1;31m <<< FAILURE![m -- in [1mGradeCalculatorTest[m
-[[1;31mERROR[m] GradeCalculatorTest.letterGradeBoundaries(double, String)[2] -- Time elapsed: 0.017 s <<< FAILURE!
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m39[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, Skipped: 0, Time elapsed: 0.201 s[1;31m <<< FAILURE![m -- in [1mGradeCalculatorTest[m
+[[1;31mERROR[m] GradeCalculatorTest.letterGradeBoundaries(double, String)[2] -- Time elapsed: 0.007 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <A> but was: <B>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -84,8 +84,8 @@ org.opentest4j.AssertionFailedError: expected: <A> but was: <B>
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;34mINFO[m] [1;31mBUILD FAILURE[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  3.989 s
-[[1;34mINFO[m] Finished at: 2026-09-23T17:55:55+08:00
+[[1;34mINFO[m] Total time:  2.280 s
+[[1;34mINFO[m] Finished at: 2026-09-24T10:21:25+08:00
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
 [[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:3.2.5:test[m [1m(default-test)[m on project [36mlab04-junit[m: [1;31mThere are test failures.[m
 [[1;31mERROR[m] [1;31m[m
